@@ -3,7 +3,7 @@
 HiddenServiceDir /var/lib/tor/hidden_service/ssh-pirata/
 HiddenServicePort 22 127.0.0.1:4242
 HiddenServiceDir /var/lib/tor/hidden_service/sftp-pirata/
-HiddenServicePort 80 127.0.0.1:42091
+HiddenServicePort 80 127.0.0.1:42901
 HiddenServicePort 22 127.0.0.1:4242
 
 ## Para compatibilidade com endereços já divulgados
@@ -45,21 +45,17 @@ HiddenServicePort 80 127.0.0.1:42915
 HiddenServiceDir /var/lib/tor/hidden_service/site-loomio-pirata/
 HiddenServicePort 80 127.0.0.1:42916
 
-## Proxies
-HiddenServiceDir /var/lib/tor/hidden_service/site-gtc-pirata/
-HiddenServicePort 80 127.0.0.1:42917
-
 ## Somente Tor
 HiddenServiceDir /var/lib/tor/hidden_service/site-piratasgauchos-pirata/
-HiddenServicePort 80 127.0.0.1:42918
+HiddenServicePort 80 127.0.0.1:42917
 HiddenServiceDir /var/lib/tor/hidden_service/site-partidopiratamg-pirata/
-HiddenServicePort 80 127.0.0.1:42919
+HiddenServicePort 80 127.0.0.1:42918
 HiddenServiceDir /var/lib/tor/hidden_service/forum-partidopiratamg-pirata/
-HiddenServicePort 80 127.0.0.1:42920
+HiddenServicePort 80 127.0.0.1:42919
 
 ## Outras portas
 HiddenServiceDir /var/lib/tor/hidden_service/mumble-pirata/
-HiddenServicePort 80 127.0.0.1:42921
+HiddenServicePort 80 127.0.0.1:42920
 HiddenServicePort 64738 127.0.0.1:64738
 
 ## Docker (mesmas portas para consistência)
@@ -69,6 +65,8 @@ HiddenServiceDir /var/lib/tor/hidden_service/site-anapirata-pirata/
 HiddenServicePort 80 127.0.0.1:42981
 HiddenServiceDir /var/lib/tor/hidden_service/site-saopaulo-pirata/
 HiddenServicePort 80 127.0.0.1:42983
+HiddenServiceDir /var/lib/tor/hidden_service/site-gtc-pirata/
+HiddenServicePort 80 127.0.0.1:42984
 HiddenServiceDir /var/lib/tor/hidden_service/site-iniciativa-pirata/
 HiddenServicePort 80 127.0.0.1:42982
 HiddenServiceDir /var/lib/tor/hidden_service/site-tesouraria-pirata/
